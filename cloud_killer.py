@@ -45,16 +45,16 @@ except Exception:
 #i know i used alot of try but it's funn ;)
 
 print('\x1b[1;32;40m'+'''
-   _____ _                 _   _  ___ _ _
-  / ____| |               | | | |/ (_) | |
- | |    | | ___  _   _  __| | | ' / _| | | ___ _ __
- | |    | |/ _ \| | | |/ _` | |  < | | | |/ _ \ '__|
- | |____| | (_) | |_| | (_| | | . \| | | |  __/ |
-  \_____|_|\___/ \__,_|\__,_| |_|\_\_|_|_|\___|_|'''+ '\033[0m')
+ ________                       __      __      ___. 
+ \_____  \ ______   ____   ____/  \    /  \ ____\_ |__
+  /   |   \\____ \_/ __ \ /    \   \/\/   // __ \| __ \ 
+ /    |    \  |_> >  ___/|   |  \        /\  ___/| \_\ \
+ \_______  /   __/ \___  >___|  /\__/\  /  \___  >___  /
+         \/|__|        \/     \/      \/       \/    \/'''+ '\033[0m')
 print('''
  ==================================================
                     From FD
-                github.com/FDX100
+                github.com/elliotalderson-531
             bypass Cloud Protection
  ===================================================
 ''')
@@ -62,7 +62,7 @@ try:
 
     domain = input('[+] enter Target domain >> ')
 except KeyboardInterrupt:
-    print('\n[-] Cloud Killer is closed !! ')
+    print('\n[-] OpenWeb is closed !! ')
     quit()
 def checker(domain):
 
@@ -103,6 +103,6 @@ try:
                 quit()
 except KeyboardInterrupt:
 
-    print('[-] Cloud Killer is closed !! ')
+    print('[-] OpenWeb is closed !! ')
     quit()
-print('[-] Cloud Killer is closed !! ')
+print('[-] OpenWeb is closed !! ')
